@@ -7,6 +7,10 @@ PREREQUISITES:
 - Python 3.9 (any latest version will do)
 - Google Chrome (latest version)
 
+ATTENTION:
+CHROME MUST NOT BE USED WHEN SCRIPT IS TRIGGERED. IF SCRIPT IS TRIGGERED WHEN CHROME IS ALREADY RUNNING, SCRIPT WILL INVOKE AN ERROR.
+Kindly close all chrome windows and re-run autocoin.py manually if this happens.
+
 SETUP:
 
 1. Install prerequisites first.
