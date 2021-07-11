@@ -1,9 +1,4 @@
-+++++++++++++++++++++++++++++++++++
-+ SHOPEE AUTOCOIN COLLECTION V0.1 +
-+             by ssl2k            +
-+++++++++++++++++++++++++++++++++++
-
-README
+SHOPEE AUTO COIN COLLECTION V0.2
 
 This program helps the you to collect shopee coins everyday at your preferred time of choosing. This can be set during first time setup.
 
