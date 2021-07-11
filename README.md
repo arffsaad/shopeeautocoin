@@ -1,6 +1,6 @@
 +++++++++++++++++++++++++++++++++++
 + SHOPEE AUTOCOIN COLLECTION V0.1 +
-+	            by ssl2k      		  +
++             by ssl2k            +
 +++++++++++++++++++++++++++++++++++
 
 README
