@@ -9,15 +9,16 @@ PREREQUISITES:
 
 SETUP:
 
-1. Install prerequisites first. 
-1. Run "RUN FIRST.bat" as admin first. this will download and perform initial setup. Set a time for the script to run (USE HH:MM IN 24HR FORMAT ONLY)
-2. Go to your downloads folder. Extract the chromedriver_win32.zip file that was downloaded.
-3. Run config.py. Make sure everything is configured.
+1. Install prerequisites first.
+2. Place all files in the same directory.
+3. Run "RUN FIRST.bat" as admin first. this will download and perform initial setup. Set a time for the script to run (USE HH:MM IN 24HR FORMAT ONLY)
+4. Go to your downloads folder. Extract the chromedriver_win32.zip file that was downloaded.
+5. Run config.py. Make sure everything is configured.
 	- For username/password, fill in as needed.
 	- For webdriverpath, point to "chromedriver.exe"
 	- For OTP check, it will perform login. Please wait until a prompt appears. If an OTP is needed, type and press enter.
 	- (if you always login shopee on chrome, this process will not ask for OTP)
-4. Done! The script will run on the set time daily to collect coins.
+6. Done! The script will run on the set time daily to collect coins.
 
 TROUBLESHOOTING:
 
