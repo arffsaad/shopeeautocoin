@@ -9,7 +9,7 @@ PREREQUISITES:
 
 ATTENTION:
 CHROME MUST NOT BE RUNNING WHEN SCRIPT IS TRIGGERED. IF SCRIPT IS TRIGGERED WHEN CHROME IS ALREADY RUNNING, SCRIPT WILL INVOKE AN ERROR.
-Kindly close all chrome windows and re-run autocoin.py manually if this happens.
+Kindly close all chrome windows before running config.py (run autocoin.py manually, if your scheduled collection is interrupted)
 
 SETUP:
 
