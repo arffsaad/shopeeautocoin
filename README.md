@@ -11,7 +11,7 @@ SETUP:
 
 1. Install prerequisites first. 
 1. Run "RUN FIRST.bat" as admin first. this will download and perform initial setup. Set a time for the script to run (USE HH:MM IN 24HR FORMAT ONLY)
-2. Go to your downloads folder. Extract the zip file that was downloaded.
+2. Go to your downloads folder. Extract the chromedriver_win32.zip file that was downloaded.
 3. Run config.py. Make sure everything is configured.
 	i.	For username/password, fill in as needed.
 	ii.	For webdriverpath, point to "chromedriver.exe"
