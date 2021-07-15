@@ -1,16 +1,16 @@
-SHOPEE AUTO COIN COLLECTION V1.0
+# SHOPEE AUTO COIN COLLECTION V1.0
 
-This program helps the you to collect shopee coins everyday at your preferred time of choosing. This can be set during first time setup.
+* This program helps the you to collect shopee coins everyday at your preferred time of choosing. This can be set during first time setup.
 
-PREREQUISITES:
+## PREREQUISITES:
 
-- Python 3.9 (any latest version will do)
-- Google Chrome (latest version)
+* Python 3.9 (any latest version will do)
+* Google Chrome (latest version)
 
-UPDATE V1.0:
+## UPDATE V1.0:
 The script now uses its own data-directory, copied from localappdata, now the script can run regardless of any chrome window currently running.
 
-SETUP:
+## SETUP:
 
 1. Install prerequisites first.
 2. Extract everything in the same folder.
@@ -23,7 +23,7 @@ SETUP:
 	- (if you always login shopee on chrome, this process will not ask for OTP)
 6. Done! The script will run on the set time daily to collect coins.
 
-TROUBLESHOOTING:
+## TROUBLESHOOTING:
 
 Chromedriver zip file does not exist in Downloads folder.
 - Download the chromedriver manually from chromedriver website: https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_win32.zip
