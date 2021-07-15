@@ -2,13 +2,13 @@
 
 * This program helps the you to collect shopee coins everyday at your preferred time of choosing. This can be set during first time setup.
 
+### UPDATE V1.0:
+The script now uses its own data-directory, copied from localappdata. Now the script can run regardless of any chrome window currently running.
+
 ## PREREQUISITES:
 
 * Python 3.9 (any latest version will do)
 * Google Chrome (latest version)
-
-## UPDATE V1.0:
-The script now uses its own data-directory, copied from localappdata, now the script can run regardless of any chrome window currently running.
 
 ## SETUP:
 
