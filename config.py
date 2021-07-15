@@ -10,8 +10,8 @@ status = [0,0,0,0]
 check = [6,7,10,11]
 stat = ["NOT CONFIGURED", "CONFIGURED"]
 count = 0
-lang = '#modal > div._2IJN-0 > div._1lzg0h > div > div.language-selection__list > div:nth-child(1) > button'
-verify = '#main > div > div._1229NB > div > div > form > div > div._3e4zDA._2kpMlA > button'
+lang = '//*[@id="modal"]/div[1]/div[1]/div/div[3]/div[1]/button'
+verify = '//*[@id="main"]/div/div[2]/div/div/form/div/div[2]/button'
 
 option = webdriver.ChromeOptions()
 option.add_argument(usrdir)
@@ -51,14 +51,14 @@ if (menu=="3"):
     sl(3)
     if(driver.current_url == pars[8][0:-1]):
         try:
-            driver.find_element_by_css_selector(lang).click()
+            driver.find_element_by_xpath(lang).click()
         except:
             nan = 0
         sl(2)
-        driver.find_element_by_css_selector(pars[1]).send_keys(pars[6])
+        driver.find_element_by_xpath(pars[1]).send_keys(pars[6])
         sl(1)
-        driver.find_element_by_css_selector(pars[2]).send_keys(pars[7])
-        driver.find_element_by_css_selector(pars[3]).click()
+        driver.find_element_by_xpath(pars[2]).send_keys(pars[7])
+        driver.find_element_by_xpath(pars[3]).click()
         if (driver.current_url != pars[9][0:-1]):
             otp =  input("First Login! Please input OTP here: ")
             driver.find_element_by_xpath('//*[@id="main"]/div/div[2]/div/div/form/div/div[2]/div[3]/input[2]').click()
@@ -66,7 +66,7 @@ if (menu=="3"):
             sendotp.send_keys(otp)
             sendotp.perform()
             sl(1)
-            driver.find_element_by_css_selector(verify).click()
+            driver.find_element_by_xpath(verify).click()
     pars[11] = "done\n"        
 elif (menu == "2"):
     #ONLY FOR DRIVERPATH#
