@@ -20,7 +20,7 @@ pswd = pars[7]
 loginURL = pars[8][0:-1]
 coinURL = pars[9]
 driverpath = pars[10][0:-1]
-usrdir = ('--user-data-dir=' + os.getenv('LOCALAPPDATA') + r"\Google\Chrome\User Data")
+usrdir = ('--user-data-dir=' + os.getcwd() + r"\usrdata")
 
 f.close()
 # end var
