@@ -38,7 +38,7 @@ option.add_argument('--remote-debugging-port=54332')
 driver = webdriver.Chrome(executable_path=driverpath, options=option)
 
 system('cls')
-print("Shopee Daily Autocoin Collector v0.1")
+print("Shopee Daily Autocoin Collector v1.0")
 sleep(0.5)
 print("by ssl2k")
 sleep(0.5)
