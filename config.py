@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 import os
 
-usrdir = ('--user-data-dir=' + os.getenv('LOCALAPPDATA') + r"\Google\Chrome\User Data")
+usrdir = ('--user-data-dir=' + os.getcwd() + r"\usrdata")
 status = [0,0,0,0]
 check = [6,7,10,11]
 stat = ["NOT CONFIGURED", "CONFIGURED"]
