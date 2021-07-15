@@ -15,7 +15,7 @@ The script now uses its own data-directory, copied from localappdata. Now the sc
 1. Install prerequisites first.
 2. Extract everything in the same folder.
 3. Run "RUN FIRST.bat" as admin. this will download chromedriver_win32.zip and perform initial setup. Set a time for the script to run (USE HH:MM IN 24HR FORMAT ONLY)
-4. Go to your downloads folder. Extract the chromedriver_win32.zip file that was downloaded.
+4. Extract the chromedriver_win32.zip file that was downloaded.
 5. Run config.py. Make sure everything is configured.
 	- For username/password, fill in as needed.
 	- For webdriverpath, point to "chromedriver.exe"
