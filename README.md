@@ -1,6 +1,6 @@
 # SHOPEE AUTO COIN COLLECTION V1.0
 
-* This program helps the you to collect shopee coins everyday at your preferred time of choosing. This can be set during first time setup.
+* This program helps you to collect shopee coins everyday at your preferred time of choosing. This can be set during first time setup.
 
 ### UPDATE V1.0:
 The script now uses its own data-directory, copied from localappdata. Now the script can run regardless of any chrome window currently running.
