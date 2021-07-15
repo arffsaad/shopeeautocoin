@@ -1,4 +1,4 @@
-SHOPEE AUTO COIN COLLECTION V0.2
+SHOPEE AUTO COIN COLLECTION V1.0
 
 This program helps the you to collect shopee coins everyday at your preferred time of choosing. This can be set during first time setup.
 
