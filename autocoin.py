@@ -46,20 +46,20 @@ print("\nCollecting coins",end="")
 driver.get(coinURL)
 sleep(3)
 
-driver.find_element_by_css_selector(coin).click()
+driver.find_element_by_xpath(coin).click()
 sleep(3)
 if (driver.current_url == loginURL):
-    driver.find_element_by_css_selector(usr).send_keys(usrn)
-    driver.find_element_by_css_selector(psw).send_keys(pswd)
-    driver.find_element_by_css_selector(login).click()
+    driver.find_element_by_xpath(usr).send_keys(usrn)
+    driver.find_element_by_xpath(psw).send_keys(pswd)
+    driver.find_element_by_xpath(login).click()
     sleep(3)
-    driver.find_element_by_css_selector(coin).click()
+    driver.find_element_by_xpath(coin).click()
 
 for x in range(3):
     print(".", end="")
     sleep(0.5)
-print("\nTotal coins as of now:", driver.find_element_by_css_selector(total).text)
-amt = driver.find_element_by_css_selector(amount)
+print("\nTotal coins as of now:", driver.find_element_by_xpath(total).text)
+amt = driver.find_element_by_xpath(amount)
 amt = int(amt.text[26])
 if (amt == 1):
     amt = 7
