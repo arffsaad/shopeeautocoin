@@ -1,6 +1,6 @@
 @echo off
 pip install selenium
-IF NOT EXIST "%cd%\chromedriver_win32.zip" bitsadmin /transfer ChromeDriverDownload /download /priority normal https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_win32.zip %cd%\chromedriver_win32.zip
+IF NOT EXIST "%cd%\chromedriver_win32.zip" bitsadmin /transfer ChromeDriverDownload /download /priority normal "https://chromedriver.storage.googleapis.com/91.0.4472.101/chromedriver_win32.zip" "%cd%\chromedriver_win32.zip"
 set /p tme="Enter the time you wish to collect coins(in HH:MM, 24HR format): "
 SCHTASKS /CREATE /SC DAILY /TN "Autocoin\shopeecollect" /TR "%cd%\autocoin.py" /ST %tme%
 CLS
