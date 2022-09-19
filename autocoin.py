@@ -2,6 +2,7 @@
 
 from playwright.sync_api import sync_playwright
 from time import sleep as sl
+from getpass import getpass
 import os
 
 # persistence, load an existing user data dir.
@@ -35,7 +36,7 @@ if not(os.path.isfile('credentials.txt')):
         except:
             nothing = 0
         username = input("Enter Username(Or phone number): ")
-        password = input("Enter Password: ")
+        password = getpass()
         print("Logging in...")
         sl(1)
         page.locator('input[name="loginKey"]').fill(username)
