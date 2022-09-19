@@ -18,4 +18,4 @@
     - Set frequency as repeat daily, select a time where your PC/Laptop will be running.
   - Linux/MacOS
     - add an entry in crontab with `crontab -e`
-    - `0 8 * * * /path/to/python3 /path/to/autocoin.py` # example, will run the script at 8AM every day
+    - `0 8 * * * /path/to/python3 /path/to/autocoin.py # example, will run the script at 8AM every day`
