@@ -100,5 +100,4 @@ else:
             coinbal = page.locator("#main > div > div.dYFPlI > div > div.xMDeox > div > div > div.NpdN3L > div.ZBdeXm").inner_text()
             cointoday = page.locator("#main > div > div.dYFPlI > div > div.xMDeox > div > div > div:nth-child(2) > div.rXcU7s > div:nth-child(1) > div > div.R519Sm._5Q-g4s").inner_text()
             print("\nCoins Collected!\nCoins balance: ", coinbal, "\nCoins Collected Today: ", cointoday, "\n\n")
-            input("Press Enter to exit...")
             browser.close()
