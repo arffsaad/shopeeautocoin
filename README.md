@@ -1,5 +1,8 @@
 ## SHOPEE AUTO COIN COLLECTION V2.0
 
+### to-do
+- detect contingencies in login (QR scan, no 2FA etc)
+
 * Autocollect Shopee Coins everyday, without fail. The script will login, and collect your coins for you. It is built with persistency, which means you only need to authorize 2FA only once, and it will flawlessly work every time.
 
 ### Pre-requisites
