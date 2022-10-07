@@ -3,7 +3,8 @@
 ### to-do
 - detect contingencies in login (QR scan, no 2FA etc)
 
-* Autocollect Shopee Coins everyday, without fail. The script will login, and collect your coins for you. It is built with persistency, which means you only need to authorize 2FA only once, and it will flawlessly work every time.
+
+Autocollect Shopee Coins everyday, without fail. The script will login, and collect your coins for you. It is built with persistency, which means you only need to authorize 2FA only once, and it will flawlessly work every time.
 
 ### Pre-requisites
 - Python 3.8 or greater (tested on 3.10, but playwright should work fine at 3.8)
