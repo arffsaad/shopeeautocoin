@@ -1,5 +1,7 @@
 ## SHOPEE AUTO COIN COLLECTION V2.0
 
+> due to my bad motivation (and my new job) I havent maintained this repo a lot. Will find the time to amp up the whole thing soon. If you want to use it, I would recommend to Fork and fix anything broken, and PR. (ill review and see if its good to merge)
+
 ### to-do
 - detect contingencies in login (QR scan, no 2FA etc)
 
